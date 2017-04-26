@@ -15,7 +15,7 @@ Shell 脚本的代码会直接在目标服务器上执行，代码中被 ``{{ }}
 
 PHP 脚本
 ---------
-PHP 脚本的 PHP 代码是在 Web Deployer 的 docker 容器中执行的，通过 PHP 的 `run` 函数来在目标服务器上执行代码，如::
+PHP 脚本的 PHP 代码是在 Web Deployer 的 docker 容器中执行的，通过 PHP 的 ``run`` 函数在目标服务器上执行 Shell 命令，如::
 
 	run('cd {{deploy_path}}');
 
