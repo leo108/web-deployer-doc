@@ -8,3 +8,4 @@ Web Deployer 使用说明
    quickstart-leader
    entities
    tasks
+   dynamic-servers
